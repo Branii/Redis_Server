@@ -1,5 +1,7 @@
 {
     "require": {
-        "react/event-loop": "1.5"
+        "react/event-loop": "1.5",
+        "flightphp/core": "^2.0",
+        "leafs/leaf": "^3.5"
     }
 }

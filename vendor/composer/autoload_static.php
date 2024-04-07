@@ -6,10 +6,27 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitfdd0e4562eeede5a5483a1ad1e1873fd
 {
+    public static $files = array (
+        'f7a40c1f1f5eb11aee5f7554cb0c8ea7' => __DIR__ . '/..' . '/leafs/form/src/functions.php',
+        'cfb7c780793bfa1138356bbe97dc66da' => __DIR__ . '/..' . '/leafs/http/src/functions.php',
+        '4cdafd4a5191caf078235e7dd119fdaf' => __DIR__ . '/..' . '/flightphp/core/flight/autoload.php',
+        'e3cd3e6ea0fe16cf6c6b16fa591c5162' => __DIR__ . '/..' . '/flightphp/core/flight/Flight.php',
+        'cd18aec96aea037961c7c777fe0159ab' => __DIR__ . '/..' . '/leafs/leaf/src/functions.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'R' => 
         array (
             'React\\EventLoop\\' => 16,
+        ),
+        'P' => 
+        array (
+            'Psr\\Log\\' => 8,
+        ),
+        'L' => 
+        array (
+            'Leaf\\Http\\' => 10,
+            'Leaf\\' => 5,
         ),
     );
 
@@ -17,6 +34,22 @@ class ComposerStaticInitfdd0e4562eeede5a5483a1ad1e1873fd
         'React\\EventLoop\\' => 
         array (
             0 => __DIR__ . '/..' . '/react/event-loop/src',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/src',
+        ),
+        'Leaf\\Http\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/leafs/http/src',
+        ),
+        'Leaf\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/leafs/form/src',
+            1 => __DIR__ . '/..' . '/leafs/anchor/src',
+            2 => __DIR__ . '/..' . '/leafs/router/src',
+            3 => __DIR__ . '/..' . '/leafs/exception/src',
+            4 => __DIR__ . '/..' . '/leafs/leaf/src',
         ),
     );
 
